@@ -1,0 +1,68 @@
+@font-face {
+	font-family: HistoricalRoman;
+	src: url(res/Historical_FellType_Roman.otf);
+}
+@font-face{
+	font-family: TaylorGothic;
+	src: url(res/TaylorGothic.otf);
+}
+html {
+	background-color: black;
+}
+body {
+	color: white;
+}
+h1 {
+	color: yellow;
+	font-family: HistoricalRoman;
+	-webkit-text-stroke: 10px red;
+	paint-order: stroke fill;
+}
+
+#title {
+	margin-top: 8%;
+	font-family: TaylorGothic;
+	-webkit-text-stroke: 6px red;
+	paint-order: stroke fill;
+	font-size: 5em;
+	letter-spacing: 0.05em;
+
+}
+#counter {
+	letter-spacing: 0.05em;
+	font-size: 10em;
+	padding-bottom: 10px;
+	margin-bottom: auto;
+	margin-top: auto;
+	padding-bottom: 50px;
+}
+
+#tappedOut {
+	font-size: 15em;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-80%);
+}
+
+
+table {
+	font-size: 74px;
+	color: red;
+	table-layout: fixed;
+	border-spacing: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+td {
+	font-size: 2em;
+	border: 2px solid red;
+	border-collapse: collapse;
+	width: 300px;
+	height: 275px;
+}
+th {
+	font-size: .4em;
+}
